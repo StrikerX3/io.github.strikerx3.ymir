@@ -12,6 +12,7 @@ finish-args:
   - --socket=pulseaudio
   - --socket=x11
   - --device=all
+  - --filesystem=home
 modules:
   - name: cereal
     buildsystem: cmake
